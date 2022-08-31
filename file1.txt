@@ -1,1 +1,1 @@
-ini file pertama
+Saya belajar git
