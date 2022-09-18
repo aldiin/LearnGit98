@@ -18,3 +18,4 @@ describe('Working with inputs', () => {
         cy.get('[type="checkbox"]').first().check()
     });
 });
+
