@@ -26,11 +26,17 @@ describe('Working with input', () => {
 
             cy.get('input[name="login-button"]').click()
 
+            cy.url().should('contains', '/inventory.html')
+
             // cy.get('.error-message-container.error').should('contains.text', 'Username and password do not match any user in this service')  
             
             cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
             cy.get('.shopping_cart_badge').click()
+            cy.url().should('contains', '/cart.html')
+
             cy.get('[data-test="checkout"]').click()
+            cy.url().should('contains', '/checkout-step-one.html')
+
             cy.get('#first-name').clear()
             cy.get('#first-name').type('aldi') 
             cy.get('#last-name').clear()
@@ -38,8 +44,10 @@ describe('Working with input', () => {
             cy.get('#postal-code').clear()
             cy.get('#postal-code').type('12345') 
             cy.get('input[name="continue"]').click()
+            cy.url().should('contains', '/checkout-step-two.html')
+            
             cy.get('.cart_footer').find('#finish').click()
-            cy.get('.header_secondary_container').should('contains.text', 'Checkout: Complete!')     
+            cy.url().should('contains', '/checkout-complete.html')  
             
 
         })
