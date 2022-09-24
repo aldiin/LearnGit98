@@ -1,0 +1,7 @@
+Cypress.json berfungsi untuk mengubah opsi default Cypress 
+dengan meneruskan argumen apapun yang kompatibel dengan project yang dibuat
+
+contohnya : 
+chromeWebSecurity:false
+baseUrl:null
+requestTimeout
