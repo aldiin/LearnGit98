@@ -31,9 +31,9 @@ describe('Login / Logout Test', () =>{
     });
 
     it('Should logout from the application', () => {
-        cy.contains('username').click()
-        cy.get('#logout_link').click()
-        cy.url().should('equal','http://zero.webappsecurity.com/index.html')
+        cy.logout()
+		cy.get('strong').should('contain.text', 'Home')
+		cy.url().should('equal', 'http://zero.webappsecurity.com/index.html')
     });
 });
 

@@ -46,3 +46,7 @@ Cypress.Commands.add('loginn', (username,password) => {
     cy.get('.title').should('contain.text', 'Products')
 }) 
 
+Cypress.Commands.add('logout', () =>  {
+    cy.contains('username').click()
+    cy.get('#logout_link').click()
+})
