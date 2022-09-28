@@ -1,0 +1,2 @@
+Sangat penting, karena jika tidak melakukan setup project nantinya akan ada kendala 
+ketika kita menjalankan project BDD yang telah dibuat.
