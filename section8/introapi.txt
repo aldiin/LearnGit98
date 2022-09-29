@@ -34,5 +34,3 @@ KESIMPULAN
 API sangat dibutuhkan dalam pembuatan dan pengembangan website dan aplikasi, 
 Karena API sebuah aplikasi dapat dikembangkan tanpa membuat setiap komponennya dari nol yang membuat pekerjaan developer menjadi lebih mudah dan efisien. 
 Selain itu API juga memilki manfaat memudahkan membangun aplikasi yang fungsional dan meringankan beban server.
-
-
