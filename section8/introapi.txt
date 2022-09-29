@@ -1,0 +1,38 @@
+API adalah singkatan dari Application Programming Interface. 
+API sendiri merupakan interface yang dapat menghubungkan satu aplikasi dengan aplikasi lainnya.
+
+Jenis API
+1.	Public API
+Public API sering disebut dengan Open API. Sesuai dengan namanya, Public API adalah jenis API yang bisa digunakan siapa saja dalam lintas platform.
+2.	Private API
+Berbeda dengan public API, Private API adalah jenis API yang tidak terbuka untuk penggunaan umum. Biasanya, API jenis ini dibuat untuk keperluan internal dalam pengembangan aplikasi tertentu.
+3.	Partner API
+Partner API bisa digunakan untuk kepentingan umum tapi sebatas pihak yang sudah memiliki izin penggunaannya.
+4.	Composite API
+Composite API merupakan API yang menyimpan data dari berbagai server atau hosting dalam satu tempat.
+
+Manfaat API
+•	Memudahkan Membangun Aplikasi yang Fungsional
+•	Pengembangan Aplikasi Menjadi Lebih Efisien
+•	Meringankan Beban Server
+
+Arsitektur API
+1.	RPC
+RPC merupakan teknologi untuk membuat komunikasi antara client side dan server side bisa dilakukan dengan konsep sederhana. 
+2.	SOAP
+Arsitektur API lainnya adalah SOAP (Simple Object Access Protocol). Arsitektur ini menggunakan XML (Extensible Markup Language) yang memungkinkan semua data disimpan dalam dokumen.
+3.	REST
+REST atau Representational State Transfer adalah arsitektur API yang cukup populer karena kemudahan penggunaannya. Tak perlu coding yang panjang untuk menggunakannya.
+
+Cara kerja API
+•	Aplikasi Mengakses API
+•	API Melakukan Request ke Server
+•	Server Memberi Respon ke API
+•	API Menyampaikan Respon ke Aplikasi
+
+KESIMPULAN 
+API sangat dibutuhkan dalam pembuatan dan pengembangan website dan aplikasi, 
+Karena API sebuah aplikasi dapat dikembangkan tanpa membuat setiap komponennya dari nol yang membuat pekerjaan developer menjadi lebih mudah dan efisien. 
+Selain itu API juga memilki manfaat memudahkan membangun aplikasi yang fungsional dan meringankan beban server.
+
+
