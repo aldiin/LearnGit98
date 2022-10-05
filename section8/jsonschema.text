@@ -1,0 +1,27 @@
+What JSON Schema?
+JSON Schema is a vocabulary that allows you to annotate and validate JSON documents. It describes your existing data format with clear, human- and machine-readable documentation for complete structural validation, useful for automated testing and validating client-submitted data.
+In simpler terms, JSON Schema is a contract for your JSON document that defines the expected data types and format of each field in the response. For example, you can create a schema that says your API's /users endpoint returns a top-level array of objects (eg, users). Naturally, you can recurse into each user and describe the format of its fields as well.
+There are many tools and libraries available to create and work with JSON Schemas, making getting started easy. In this post, I'll walk-through an example of using Assertible to create a test that validates an API response against a JSON Schema. From there, automated monitoring and alerts can be set up for continuous testing.
+It's worth investigating other tools available, especially libraries in your programming language of choice. JSON Schema is a robust tool that has many application useful for all sorts of validation and documentation.
+
+Basic JSON Schema example 
+{
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 35
+}
+
+JSON Schema assertions in Assertible
+There are many tools and libraries available to test API responses against a JSON Schema. Assertible has an easy to use JSON Schema assertion to validate an API response that we'll set up in this example.
+If you haven't gotten started with Assertible yet, you can create a free account and enter your API's URL to get started. For more help on this, check out the quick start guide.
+Verifying an API response against a JSON Schema in Assertible is only a couple of steps. Let's walk through it:
+First, create a test that calls the API endpoint you want to check
+On the test's page, navigate to the Assertions tab, select Add new assertion, and choose the JSON Validation assertion. 
+
+Automation and alerts
+With Assertible, it's easy to put this test on a schedule for automated testing and set up failure alerts.
+On the Assertible free plan, you can set up an hourly test schedule, and on one of the upgraded plans, you can set up 1 minute, 5 minute, and 15 minute schedules to make sure your API is continuously tested.
+All alert and notification functionality is available on Assertible's free plan. You can send failure messages to your email with hooks or to a team chat using the Slack integration.
+
+
+

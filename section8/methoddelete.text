@@ -1,0 +1,2 @@
+Tidak ada, Karena method delete tidak membutuhkan response body 
+sehingga tidak data untuk di assertion selain status code.
