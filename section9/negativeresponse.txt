@@ -1,0 +1,45 @@
+400 Permintaan Tidak Layak (Bad request)
+Server tidak memahami sintaks/syntax permintaan dari klien.
+401 Tidak Terotentikasi (Not authorized)
+Permintaan membutuhkan otentikasi. Server biasanya menampilkan respon ini untuk halaman setelah login (page behind a login).
+403 Terlarang (Forbiden)
+Server menolak permintaan tersebut. itu mungkin bahwa server atau host memblokir pengaksesan.
+404 Tidak Ditemukan (Not found)
+Server tidak dapat menemukan halaman yang diminta. Misalnya, server akan menampilkan kode ini jika permintaan untuk halaman tersebut tidak ada di server.
+405 Metode Tidak Diperbolehkan (Method not allowed)
+Metode yang ditentukan dalam permintaan tidak diperbolehkan.
+406 Tidak Dapat Diterima (Not acceptable)
+Halaman yang diminta tidak dapat merespons dengan karakteristik konten yang diminta.
+407 Meminta Otentikasi Proxy (Proxy authentication required)
+Mirip dengan 401 (not authorized), tetapi menetapkan agar pemohon harus mengotentikasi menggunakan proxy. Ketika server mengembalikan respons ini, juga menunjukkan proxy yang harus digunakan pemohon.
+408 Melampaui Batas Waktu Permintaan (Request timeout)
+Server kehabisan waktu pada saat menunggu permintaan.
+409 Terjadi Konflik (Conflict)
+Server mengalami konflik saat memenuhi permintaan. Server menampilkan kode ini dalam menanggapi permintaan yang bertentangan dengan permintaan sebelumnya, bersama dengan daftar perbedaan antara permintaan.
+410 Permintaan Hilang (Gone)
+Server menampilkan respon ini ketika sumber yang diminta telah dihapus secara permanen. Hal ini mirip dengan kode 404 (Not found). Jika sumber telah dipindahkan secara permanen, Anda harus menggunakan kode 301 untuk menentukan lokasi baru sumber.
+411 Syarat Panjang (Length required)
+Server tidak akan menerima permintaan tanpa Content-Length header field yang sah.
+413 Permintaan Terlalu Besar(Request entity too large)
+Server tidak dapat memproses permintaan karena terlalu besar untuk server tangani.
+414 URL Terlalu Panjang (Requested URI is too long)
+URI yang diminta (biasanya, URL) terlalu panjang untuk diproses oleh server.
+415 Tidak Mendukung Format Media Tertentu (Unsupported media type)
+Permintaan tersebut dalam format yang tidak didukung oleh halaman yang diminta.
+416 Rentang Tidak Tersedia (Requested range not satisfiable)
+Server menampilkan kode status ini jika permintaan untuk rentang/range tidak tersedia untuk halaman tersebut.
+417 Harapan Tidak Terpenuhi (Expectation failed)
+Server tidak dapat memenuhi persyaratan Expect request-header field.
+500 Permasalahan Internal Server (Internal server error)
+Server mengalami galat/error dan tidak dapat memenuhi permintaan.
+501 Tidak Terimplementasi (Not implemented)
+Server tidak memiliki fungsi untuk memenuhi permintaan. Misalnya, server akan menampilkan kode ini ketika tidak mengenali metode permintaan.
+502 Gateway yang Buruk (Bad gateway)
+Server bertindak sebagai gateway atau proxy dan menerima respon tidak valid dari upstream server.
+503 Server Tidak Tersedia (Service unavailable)
+Server saat ini tidak tersedia (karena kelebihan beban atau dalam proses maintenance ). Umumnya, ini bersfiat sementara.
+504 Melebihi Batas Waktu Gateway (Gateway timeout)
+Server bertindak sebagai gateway atau proxy dan tidak menerima permintaan tepat waktu dari server upstream.
+505 Tidak Mendukung Versi HTTP (HTTP version not supported)
+Server tidak mendukung versi protokol HTTP yang digunakan dalam permintaan
+

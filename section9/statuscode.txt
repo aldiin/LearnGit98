@@ -1,0 +1,2 @@
+Penting, karena validate status akan memberitahu bahwa terjadi masalah tertentu ketika server menjalankan suatu
+proses, dan setiap masalah yang muncul memiliki kode status tertentu.
