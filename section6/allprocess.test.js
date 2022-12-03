@@ -26,7 +26,8 @@ describe('Login / Logout Test', function () {
 			const username = user.username
 			const password = user.password
 
-			cy.loginn(username, password)
+        
+			cy.login(username, password)
 			cy.url().should('include', 'inventory.html')
 		})
 	})
@@ -43,7 +44,7 @@ describe('Checkout Products', function () {
 			const username = user.username
 			const password = user.password
 
-			cy.loginn(username, password)
+			cy.login(username, password)
 		})
 	})
 	it('Menambahkan products ke keranjang dan checkout products', function () {
